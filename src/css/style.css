@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat: 100, 200, 300, 400, 500, 600, 700, 800, 900');
+
+:root
+{
+    --body-background-color: #191970;
+    --currency-converter-background-color: #4169e1;
+    --currencies-swap-button-text-color: #191970;
+    --currencies-swap-button-background-color: #fff700;
+    --primary-text-color: #fff;
+
+    /* Radii */
+    --base-border-radius: 10px;
+
+    /* Shadows */
+    --text-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+body
+{
+    background-color: var(--body-background-color);
+
+}
